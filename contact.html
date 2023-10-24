@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Baumray</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm position-fixed w-100 index">
+  <div class="container-sm">
+    <a class="navbar-brand fs-4 text-primary" href="index.html">Baumray</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0" style="font-family: 'Open Sans', sans-serif;">
+        <li class="nav-item mx-2">
+          <a class="nav-link active text-primary-emphasis" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item  mx-2">
+          <a class="nav-link text-primary-emphasis" href="#">Features</a>
+        </li>
+        <li class="nav-item dropdown  mx-2">
+          <a class="nav-link dropdown-toggle text-primary-emphasis" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About Us
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="about.html">Our Mission</a></li>
+            <li><a class="dropdown-item" href="about.html">How we Operate</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="about.html">Blog</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form action="">
+        <button class="btn btn-outline-primary pri-bg-col change"><a href="contact.html" class="" style="text-decoration: none;">Contact Us</a></button>
+    </form>
+    </div>
+  </div>
+    </nav>
+
+      <!--Contact -->
+    <main class="py-5">
+      <div class="container-sm d-flex flex-column flex-lg-row border-0 justify-content-between align-items-center w-80 py-5">
+        <div class="leftt-contact-image">
+          <img src="./Images/contact-two.png" class="rounded px-sm-5" alt="">
+        </div>
+        <div class="left-form w-50 size px-3 py-2">
+          <h2 class="text-primary-emphasis fs-1 mid">Contact Us</h2>
+          <p class="text-primary mid">Have a question? Reach out to us</p>
+          <form class="mb-4">
+            <label for="Name" class="block fw-bold mb-2">Your Name</label> <br/>
+            <input type="text" placeholder="surname first" class="w-75 size"> <br /> <br>
+            <label for="Email" class="block fw-bold mb-2">Email</label> <br>
+            <input type="email" placeholder="johndoe@example.com" class="w-75 size h-10 text-black px-2 placeholder:text-[12px] rounded-md border shadow"name="email"> <br> <br>
+            <label for="message" class="block fw-bold mb-2">Message</label> <br>
+            <textarea name="Message" id="" placeholder="Your Message" cols="30" rows="4" class="w-75 size"></textarea>
+          </form>
+          <button class="btn btn-outline-primary py-2 size px-5 w-75">Submit</button>
+        </div>
+      </div>
+      <div class="last-contact py-5 text-center w-80">
+        <h4 class="text-primary-emphasis fw-bolder">Contact Us</h4>
+        <div class="container contact-style border-0 d-flex flex-column flex-lg-row justify-content-between">
+          <div class="contact-card py-2">
+            <div class="card" style="width: 18rem;">
+              <i class="bi bi-geo-alt-fill fs-3 text-primary"></i>
+              <div class="card-body">
+                <h5 class="card-title text-primary-emphasis">Visit Us</h5>
+                <p class="card-text text-primary">Mkopk Federal Housing Estate, Eket <br> Akwa Ibom State.</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-card py-2">
+            <div class="card" style="width: 18rem;">
+              <i class="bi bi-telephone-plus-fill fs-3 text-primary"></i>
+              <div class="card-body">
+                <h5 class="card-title text-primary-emphasis">Visit Us</h5>
+                <p class="card-text text-primary">+ (234) 907-464-0050</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-card py-2">
+            <div class="card" style="width: 18rem;">
+              <i class="bi bi-envelope-at-fill fs-3 text-primary-emphasis"></i>
+              <div class="card-body">
+                <h5 class="card-title text-primary-emphasis">Mail Us</h5>
+                <p class="card-text text-primary">baumraynig@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+     <!-- footer -->
+     <footer class="bg-secondary-subtle">
+      <div class="container py-5 d-flex flex-column justify-content-center align-items-center gap-3 shadow-sm">
+        <div class="up-part text-center w-75 ">
+          <h2 class="text-primary-emphasis">Baumray Nig Ltd</h2>
+        <p class="text-primary">
+          Discover how Baumray can revolutionize your business with forward-thinking solutions when you partner with them. Contact us today for your supply and lets embark on a journey towards winning the market and succeed together.
+        </p>
+        </div>
+        <div class="down-part text-center">
+          <div class="icons d-flex justify-content-center gap-5 pb-2 fs-3">
+            <i class="bi bi-cart-check-fill text-info-emphasis"></i>
+            <i class="bi bi-facebook text-primary"></i>
+            <i class="bi bi-whatsapp text-success"></i>
+          </div>
+          <h6 class="text-primary-emphasis">Copyright 2023</h6>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
